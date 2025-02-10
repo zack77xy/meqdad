@@ -11,15 +11,15 @@
         <form action="index3.html" method="get">
             <div class="form-group">
                 <label for="etudiant">Étudiant</label>
-                <input type="text" id="etudiant" name="etudiant" required>
+                <input type="number" min="0" max="20"  name="etudiant" required>
             </div>
             <div class="form-group">
                 <label for="maths">Maths</label>
-                <input type="text" id="maths" name="maths" required>
+                <input type="number" min="0" max="20" id="maths" name="maths" required>
             </div>
             <div class="form-group">
                 <label for="informatique">Informatique</label>
-                <input type="text" id="informatique" name="informatique" required>
+                <input type="number" min="0" max="20" id="informatique" name="informatique" required>
             </div>
             <div class="buttons">
                 <button type="submit" class="btn">Résultat</button>
